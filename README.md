@@ -32,7 +32,6 @@ SerialTextAssistantを日本語表示できるように修正したソフト<br>
 <br><br>
 <b>（例）"TTS.cpp"をコンパイルする場合</b><br>
 <br>
-// ********* <<< Uncomment just one line >>> ********<br>
 // #include "../examples/KWS_ASR.cpp"<br>
 // #include "../examples/SerialTextAssistant.cpp"<br>
 // #include "../examples//TextAssistant.cpp"<br>
@@ -40,7 +39,6 @@ SerialTextAssistantを日本語表示できるように修正したソフト<br>
 // #include "../examples/VoiceAssistant.cpp"<br>
 // #include "../examples/YOLO.cpp"<br>
 // #include "../examples/SerialTextAssistant-jp.cpp"<br>
-// **************************************************<br>
 <br>
 コメントに（する／はずす）だけで７本のソフトを簡単に試すことができます。<br>
 <br>
