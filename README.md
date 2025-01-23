@@ -1,12 +1,14 @@
 # examples-M5StackLLM-onVsCode
 
-VsCode環境下で M5Stack LLM-Module のサンプルソフトを確認できるようにしたものです。<br>
+VsCode環境下で M5Stack LLM-Module のサンプルソフトを動かしたい方へ<br>
+次のリンク先の公式examplesをVsCode環境用にすぐに試用できるようにしたものです。<br>
+ https://github.com/m5stack/M5Module-LLM/tree/main/examples
 
+<br>
+<br>
 
 ## examples
-
-次のリンク先の公式examplesをVsCode環境用にすぐに試用できるようにちょっとだけ修正<br>
- https://github.com/m5stack/M5Module-LLM/tree/main/examples
+公式examples（ソフト６本）
 <b>
 - KWS_ASR<br>
 - SerialTextAssistant<br>
@@ -15,12 +17,11 @@ VsCode環境下で M5Stack LLM-Module のサンプルソフトを確認できる
 - VoiceAssistant<br>
 - YOLO<br>
 </b>
-<br>
+<br><br>
 
-SerialTextAssistantを日本語表示できるように修正して追加しました<br>
+SerialTextAssistantを日本語表示できるように修正したソフト<br>
 - <b>SerialTextAssistant-jp</b><br>
-
-
+<br>
 全部で７本のソフトを用意しました。<br>
 <br>
 <br>
@@ -74,12 +75,14 @@ BASIC および CoreS3での確認をおこなっていませんのでご了承�
 <br>
 
 ## SD-Updater対応
-M5Stack Core2(Ver1.0 and AWS) のみですが、SD_Uploder対応版用にコンパイルできます。<br>
-VsCodeの下部の「Switch PlatformIO Project enviroment」で<br>
+M5Stack Core2(Ver1.0 and AWS) 用ですが、SD-Updater対応版することができます。<br>
+VsCodeの下部の「Switch PlatformIO Project enviroment」で
 <b>[env:m5stack-core2-sdu]</b> を選択してください。<br>
-".pio/m5stack-core2-sdu"フォルダ下にfirmware.binが作成されます。名前を変えSD直下に設置するとと他のSD-Updater対応ソフトと切替えて使用することができます。<br>
 <br>
-他のソフトは、下記リンクから取得することができます。<br>
+コンパイル後に ".pio/m5stack-core2-sdu"フォルダ下にfirmware.binが作成されます。<br>
+名前を変えSD直下に設置すると他SD-Updater対応ソフトと切替えて使用することができます。<br>
+<br>
+SD-Updater対応の他ソフトは、下記リンクから取得することができます。<br>
 https://github.com/NoRi-230401/BinsPack-for-StackChan-Core2<br>
 <br>
 
