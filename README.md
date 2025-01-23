@@ -29,8 +29,9 @@ SerialTextAssistantを日本語表示できるように修正したソフト<br>
 ## 使用方法
 
 <b>src/main.cpp 内のコメントをはずしてコンパイルする</b><br>
+<br><br>
+<b>（例）"TTS.cpp"をコンパイルする場合</b><br>
 <br>
-（例）"TTS.cpp"をコンパイルする場合<br>
 // ********* <<< Uncomment just one line >>> ********<br>
 // #include "../examples/KWS_ASR.cpp"<br>
 // #include "../examples/SerialTextAssistant.cpp"<br>
@@ -75,7 +76,7 @@ BASIC および CoreS3での確認をおこなっていませんのでご了承�
 <br>
 
 ## SD-Updater対応
-M5Stack Core2(Ver1.0 and AWS) 用ですが、SD-Updater対応版することができます。<br>
+M5Stack Core2(Ver1.0 and AWS) 用ですが、SD-Updater対応版にすることができます。<br>
 VsCodeの下部の「Switch PlatformIO Project enviroment」で
 <b>[env:m5stack-core2-sdu]</b> を選択してください。<br>
 <br>
