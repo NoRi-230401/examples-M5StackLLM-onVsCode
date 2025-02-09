@@ -67,7 +67,7 @@ M5Stack Core2(Ver1.0 and AWS) 用ですが、SD-Updater対応版にすること�
 
 コンパイル後に ".pio/m5stack-core2-sdu"フォルダ下にfirmware.binが作成されます。名前を変えSD直下に設置すると他SD-Updater対応ソフトと切替えて使用することができます。
 
-SD-Updater対応の他ソフトは、下記リンクから取得することができます。
+SD-Updater対応の他ソフトは、下記リンクから取得することができます。<br>
 https://github.com/NoRi-230401/BinsPack-for-StackChan-Core2
 
 ---
