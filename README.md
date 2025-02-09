@@ -45,11 +45,8 @@ LLM-Moduleと繋ぐM5Stack本体の機種は、次の３種に対応していま
 **M5Stack Core2**<br>
 **M5Stack CoreS3**<br>
 
-platformio.ini で機種ごとに対応したものを用意しています。
-**VsCodeの下部の「Switch PlatformIO Project enviroment」** で選択してご使用ください。
-
-
-VsCodeで下図の赤枠の付近を押すと切替えることができます。
+platformio.ini で機種ごとに対応したものを用意しています。<br>
+VsCodeで下図の赤枠の付近を押すと切替えることができます。<br>
 
 ![画像](images/env00.png)
 <br>
