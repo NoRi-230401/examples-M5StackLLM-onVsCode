@@ -1,8 +1,9 @@
 # examples-M5StackLLM-onVsCode
 
-VsCode環境下で M5Stack LLM-Module のサンプルソフトを動かしたい方へ
-次のリンク先の公式examplesをVsCode環境用にすぐに試用できるようにしたものです。
+VsCode環境下で M5Stack LLM-Module のサンプルソフトを動かしたい方へ<br>
+次のリンク先の公式examplesをVsCode環境用にすぐに試用できるようにしたものです。<br>
  https://github.com/m5stack/M5Module-LLM/tree/main/examples
+<br>
 
 ---
 ## examples
@@ -39,9 +40,10 @@ VsCode環境下で M5Stack LLM-Module のサンプルソフトを動かしたい
 ---
 ## 対応機種
 LLM-Moduleと繋ぐM5Stack本体の機種は、次の３種に対応しています。
-**M5Stack Basic**
-**M5Stack Core2**
-**M5Stack CoreS3**
+
+**M5Stack Basic**<br>
+**M5Stack Core2**<br>
+**M5Stack CoreS3**<br>
 
 platformio.ini で機種ごとに対応したものを用意しています。
 **VsCodeの下部の「Switch PlatformIO Project enviroment」** で選択してご使用ください。
@@ -50,10 +52,10 @@ platformio.ini で機種ごとに対応したものを用意しています。
 VsCodeで下図の赤枠の付近を押すと切替えることができます。
 
 ![画像](images/env00.png)
-
-M5Stack Basic  ->  **[env:m5stack-basic]**
-M5Stack Core2  ->  **[env:m5stack-core2]**
-M5Stack CoreS3 ->  **[env:m5stack-cores3]**
+<br>
+M5Stack Basic  ->  **[env:m5stack-basic]** <br>
+M5Stack Core2  ->  **[env:m5stack-core2]** <br>
+M5Stack CoreS3 ->  **[env:m5stack-cores3]** <br>
 
 ※ M5Stack Core2(for AWS)を使用して動作確認を実施しています。
 Basic および CoreS3での確認をおこなっていませんのでご了承ください。
