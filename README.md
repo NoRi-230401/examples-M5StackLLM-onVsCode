@@ -27,13 +27,13 @@ VsCode環境下で M5Stack LLM-Module のサンプルソフトを動かしたい
 
 (例) "TTS.cpp"を動作させる場合
 ```
-// #include "../examples/KWS_ASR.cpp"<br>
-// #include "../examples/SerialTextAssistant.cpp"<br>
-// #include "../examples//TextAssistant.cpp"<br>
-#include "../examples/TTS.cpp"<br>
-// #include "../examples/VoiceAssistant.cpp"<br>
-// #include "../examples/YOLO.cpp"<br>
-// #include "../examples/SerialTextAssistant-jp.cpp"<br>
+// #include "../examples/KWS_ASR.cpp"
+// #include "../examples/SerialTextAssistant.cpp"
+// #include "../examples//TextAssistant.cpp"
+#include "../examples/TTS.cpp"
+// #include "../examples/VoiceAssistant.cpp"
+// #include "../examples/YOLO.cpp"
+// #include "../examples/SerialTextAssistant-jp.cpp"
 ```
 コメントに（する／はずす）だけで７本のソフトを簡単に試すことができます。
 
